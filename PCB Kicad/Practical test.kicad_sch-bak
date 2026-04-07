@@ -1,0 +1,95 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ac5e243d-d410-4052-a285-dabac190211f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 218.44 53.34) (xy 222.25 53.34))
+    (stroke (width 0) (type default))
+    (uuid 2c6d057f-f2db-46fe-838c-eb8bcf5416f5)
+  )
+
+  (sheet (at 177.8 49.53) (size 40.64 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 252 25 1.0000))
+    (uuid 02eb5342-a86b-4b06-b238-06437708ce48)
+    (property "Sheetname" "Power Rail" (at 177.8 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power Rail.kicad_sch" (at 177.8 83.1346 0) (show_name)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "UART_TX" output (at 218.44 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a0d1d209-cdb2-427e-bc39-5d86c7ec3712)
+    )
+    (instances
+      (project "Practical test"
+        (path "/ac5e243d-d410-4052-a285-dabac190211f" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 222.25 49.53) (size 45.72 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 252 25 1.0000))
+    (uuid 30ba4237-9b68-4a7d-a1ce-baf2723453cf)
+    (property "Sheetname" "MCU" (at 222.25 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 222.25 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "UART_TX" input (at 222.25 53.34 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 1630d671-d896-4d48-a58e-f61021c8bc72)
+    )
+    (instances
+      (project "Practical test"
+        (path "/ac5e243d-d410-4052-a285-dabac190211f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 113.03 49.53) (size 53.34 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 252 25 1.0000))
+    (uuid eddde15e-ea82-4fda-919e-573e79ae95d2)
+    (property "Sheetname" "Header and Interfaces" (at 113.03 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Header_Interfaces.kicad_sch" (at 113.03 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Practical test"
+        (path "/ac5e243d-d410-4052-a285-dabac190211f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 113.03 96.52) (size 45.72 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 255 252 25 1.0000))
+    (uuid f469e65a-ef01-4d1d-a837-63842367f078)
+    (property "Sheetname" "Driver and Output" (at 113.03 95.8084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Driver_Output.kicad_sch" (at 113.03 131.3946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Practical test"
+        (path "/ac5e243d-d410-4052-a285-dabac190211f" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
